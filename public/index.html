@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <style>
+        canvas {
+  border: 1px solid black;
+  width: 560px;
+  height: 360px;
+} #message-container {
+      width: 80%;
+      max-width: 1200px;
+    }
+   </style>
+    <h1>Drawing</h1>
+    <canvas id="myPics" width="560" height="360"></canvas>
+    <div>
+        <button id="clear-button">全消し</button>
+        <button id="eraser-button">消しゴムモード</button>
+      </div>
+    <div id="message-container"></div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script> 
+</html>
